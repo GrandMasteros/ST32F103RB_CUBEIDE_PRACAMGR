@@ -1,0 +1,7 @@
+ring_buffer.c:6:6:RingBuffer_Init	24	static
+ring_buffer.c:27:6:RingBuffer_Clear	16	static
+ring_buffer.c:43:6:RingBuffer_IsEmpty	16	static
+ring_buffer.c:50:8:RingBuffer_GetLen	16	static
+ring_buffer.c:71:8:RingBuffer_GetCapacity	16	static
+ring_buffer.c:85:6:RingBuffer_PutChar	16	static
+ring_buffer.c:117:6:RingBuffer_GetChar	16	static
