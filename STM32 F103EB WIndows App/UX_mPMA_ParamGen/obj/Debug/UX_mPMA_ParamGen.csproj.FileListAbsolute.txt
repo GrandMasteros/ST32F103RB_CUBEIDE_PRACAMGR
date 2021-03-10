@@ -1,0 +1,44 @@
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe.config
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.pdb
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.MainForm.resources
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csproj.GenerateResource.Cache
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.exe
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.pdb
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.ComPort.resources
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Logger.resources
+C:\HealthCare\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csprojResolveAssemblyReference.cache
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe.config
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.pdb
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.ComPort.resources
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Logger.resources
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.MainForm.resources
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csproj.GenerateResource.Cache
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.exe
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.pdb
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csprojResolveAssemblyReference.cache
+C:\HealthCare\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.PatternGenerator.resources
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csprojResolveAssemblyReference.cache
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.ComPort.resources
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Logger.resources
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.MainForm.resources
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.PatternGenerator.resources
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csproj.GenerateResource.Cache
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.exe
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe.config
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.pdb
+C:\Users\Wiktor\Desktop\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.pdb
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe.config
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.exe
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\UX_mPMA_ParamGen.pdb
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csprojResolveAssemblyReference.cache
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.ComPort.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Logger.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.MainForm.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.PatternGenerator.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.csproj.GenerateResource.Cache
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.exe
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.pdb
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Hamming.resources

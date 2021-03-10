@@ -1,0 +1,24 @@
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\Nucleo F103RB WIndows App.exe.config
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\Nucleo F103RB WIndows App.exe
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\bin\Debug\Nucleo F103RB WIndows App.pdb
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.csprojResolveAssemblyReference.cache
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.ComPort.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Hamming.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Logger.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.MainForm.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.PatternGenerator.resources
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.csproj.GenerateResource.Cache
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.exe
+C:\EiT\Rok 4\SDUP_projekt\mpma_paramgen\UX_mPMA_ParamGen\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.pdb
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\bin\Debug\Nucleo F103RB WIndows App.exe.config
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\bin\Debug\Nucleo F103RB WIndows App.exe
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\bin\Debug\Nucleo F103RB WIndows App.pdb
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.csprojResolveAssemblyReference.cache
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.ComPort.resources
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Hamming.resources
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.Logger.resources
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.MainForm.resources
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\UX_mPMA_ParamGen.PatternGenerator.resources
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.csproj.GenerateResource.Cache
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.exe
+C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32 F103EB WIndows App\UX_mPMA_ParamGen\obj\Debug\Nucleo F103RB WIndows App.pdb

@@ -65,8 +65,8 @@ all: main-build
 main-build: STM32_NUCLEO_mgr_free_rtos.elf secondary-outputs
 
 # Tool invocations
-STM32_NUCLEO_mgr_free_rtos.elf: $(OBJS) $(USER_OBJS) C:\Magisterka\STM32\ Cube\ IDE\STM32_NUCLEO_mgr_free_rtos\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32_NUCLEO_mgr_free_rtos.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Magisterka\STM32 Cube IDE\STM32_NUCLEO_mgr_free_rtos\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_NUCLEO_mgr_free_rtos.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32_NUCLEO_mgr_free_rtos.elf: $(OBJS) $(USER_OBJS) C:\Magisterka\STM32\ Cube\ IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32_NUCLEO_mgr_free_rtos\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32_NUCLEO_mgr_free_rtos.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Magisterka\STM32 Cube IDE\ST32F103RB_CUBEIDE_PRACAMGR\STM32_NUCLEO_mgr_free_rtos\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_NUCLEO_mgr_free_rtos.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

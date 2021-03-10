@@ -328,9 +328,31 @@ static void MX_GPIO_Init(void)
 
 }
 
+static void USART_Process_Data(const char *data)
+{
+  if(strncmp(data, "left", 4) == 0)
+  {
+    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+    vTaskDelay(1);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+  }
+  if(strncmp(data, "righ", 4) == 0)
+  {
+    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+    vTaskDelay(1);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+  }
+  if(strncmp(data, "meas", 4) == 0)
+  {
+	  HAL_UART_Transmit(&huart1, "current: x, voltage: y", 22, 1000);
+  }
+}
+
 void USART_POLL_WriteString(const char *s)
 {
-	HAL_UART_Transmit(&huart1, (uint8_t*)s, 1, 1000);
+	HAL_UART_Transmit(&huart1, (uint8_t*)s, 1, 100);
 }
 
 
@@ -351,9 +373,9 @@ void USART_Process(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    if( HAL_UART_Receive(&huart1, (uint8_t *) RingBufferData_Rx, 1, 100) == HAL_OK)
+    if( HAL_UART_Receive(&huart1, (uint8_t *) RingBufferData_Rx, 4, 100) == HAL_OK)
     {
-      USART_POLL_WriteString(RingBufferData_Rx);
+      USART_Process_Data(RingBufferData_Rx);
     }
   }
   /* USER CODE END 5 */
@@ -372,7 +394,7 @@ void GPIO_Process(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_SET);
+/*    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_SET);
     for (int i=0 ; i < 100; i++)
     {
       HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
@@ -387,7 +409,7 @@ void GPIO_Process(void *argument)
       vTaskDelay(1);
       HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
       vTaskDelay(10);
-    }
+    }*/
   }
   /* USER CODE END GPIO_Process */
 }
