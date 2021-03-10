@@ -346,7 +346,18 @@ static void USART_Process_Data(const char *data)
   }
   if(strncmp(data, "meas", 4) == 0)
   {
-	  HAL_UART_Transmit(&huart1, "current: x, voltage: y", 22, 1000);
+	  HAL_UART_Transmit(&huart1, (uint8_t *) "current: x, voltage: y", 22, 1000);
+  }
+  if(strncmp(data, "te_1", 4) == 0)
+  {
+    for (int i=0; i < 100; i++)
+    {
+      HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_SET);
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+      vTaskDelay(20);
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+      HAL_UART_Transmit(&huart1, (uint8_t *) "current: x, voltage: y", 22, 1000);
+    }
   }
 }
 
