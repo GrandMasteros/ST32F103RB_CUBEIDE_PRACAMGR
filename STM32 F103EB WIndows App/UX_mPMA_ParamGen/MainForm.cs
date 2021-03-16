@@ -60,5 +60,11 @@ namespace UX_mPMA_ParamGen
 			serialPort.Write("meas");
 			logger.Log(serialPort.ReadExisting());
 		}
+		
+		void TestButtonClick(object sender, EventArgs e)
+		{
+			serialPort.Write("te_1");
+			logger.Log(serialPort.ReadExisting());
+		}
 	}
 }

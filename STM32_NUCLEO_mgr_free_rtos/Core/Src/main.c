@@ -48,6 +48,7 @@ UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
 
 static char RingBufferData_Rx[1024];
+static uint8_t run_single_test = 1;
 
 /* Definitions for USART_Task */
 osThreadId_t USART_TaskHandle;
@@ -354,9 +355,10 @@ static void USART_Process_Data(const char *data)
     {
       HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_SET);
       HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
-      vTaskDelay(20);
+      vTaskDelay(1);
       HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
       HAL_UART_Transmit(&huart1, (uint8_t *) "current: x, voltage: y", 22, 1000);
+      vTaskDelay(100);
     }
   }
 }
@@ -405,22 +407,16 @@ void GPIO_Process(void *argument)
   /* Infinite loop */
   for(;;)
   {
-/*    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_SET);
-    for (int i=0 ; i < 100; i++)
-    {
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
-      vTaskDelay(1);
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
-      vTaskDelay(10);
-    }
-    HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1, GPIO_PIN_RESET);
-    for (int i=0 ; i < 100; i++)
-    {
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
-      vTaskDelay(1);
-      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
-      vTaskDelay(10);
-    }*/
+/*		    for (int i=0; i < 100; i++)
+		    {
+		      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+		      vTaskDelay(1);
+		      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+		      HAL_UART_Transmit(&huart1, (uint8_t *) "current: x, voltage: y", 22, 1000);
+		      vTaskDelay(20);
+		    }
+		    vTaskDelay(8000);*/
+
   }
   /* USER CODE END GPIO_Process */
 }

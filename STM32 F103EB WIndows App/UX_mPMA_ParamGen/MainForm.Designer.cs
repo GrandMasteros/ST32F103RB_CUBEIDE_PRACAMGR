@@ -42,7 +42,7 @@ namespace UX_mPMA_ParamGen
 			this.LeftButton = new System.Windows.Forms.Button();
 			this.RightButton = new System.Windows.Forms.Button();
 			this.button4 = new System.Windows.Forms.Button();
-			this.button5 = new System.Windows.Forms.Button();
+			this.TestButton = new System.Windows.Forms.Button();
 			this.logger = new UX_mPMA_ParamGen.Logger();
 			this.MeasButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
@@ -86,15 +86,16 @@ namespace UX_mPMA_ParamGen
 			this.button4.Text = "Save";
 			this.button4.UseVisualStyleBackColor = true;
 			// 
-			// button5
+			// TestButton
 			// 
-			this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.button5.Location = new System.Drawing.Point(512, 12);
-			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(143, 65);
-			this.button5.TabIndex = 6;
-			this.button5.Text = "Stop";
-			this.button5.UseVisualStyleBackColor = true;
+			this.TestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+			this.TestButton.Location = new System.Drawing.Point(512, 12);
+			this.TestButton.Name = "TestButton";
+			this.TestButton.Size = new System.Drawing.Size(143, 65);
+			this.TestButton.TabIndex = 6;
+			this.TestButton.Text = "Test 180";
+			this.TestButton.UseVisualStyleBackColor = true;
+			this.TestButton.Click += new System.EventHandler(this.TestButtonClick);
 			// 
 			// logger
 			// 
@@ -122,7 +123,7 @@ namespace UX_mPMA_ParamGen
 			this.ClientSize = new System.Drawing.Size(930, 507);
 			this.Controls.Add(this.MeasButton);
 			this.Controls.Add(this.logger);
-			this.Controls.Add(this.button5);
+			this.Controls.Add(this.TestButton);
 			this.Controls.Add(this.button4);
 			this.Controls.Add(this.RightButton);
 			this.Controls.Add(this.LeftButton);
@@ -133,7 +134,7 @@ namespace UX_mPMA_ParamGen
 		}
 		private System.Windows.Forms.Button MeasButton;
 		private UX_mPMA_ParamGen.Logger logger;
-		private System.Windows.Forms.Button button5;
+		private System.Windows.Forms.Button TestButton;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Button RightButton;
 		private System.Windows.Forms.Button LeftButton;
