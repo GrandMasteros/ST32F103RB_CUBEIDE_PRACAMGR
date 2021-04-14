@@ -11,6 +11,9 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using System.IO.Ports;
+using System.IO;
+using System.Threading.Tasks;
+using System.Text;
 
 namespace UX_mPMA_ParamGen
 {
@@ -63,8 +66,33 @@ namespace UX_mPMA_ParamGen
 		
 		void TestButtonClick(object sender, EventArgs e)
 		{
-			serialPort.Write("te_1");
-			logger.Log(serialPort.ReadExisting());
+		     Stream myStream ;    
+		     SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+		 
+		     saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*"  ;
+		     saveFileDialog1.FilterIndex = 2 ;
+		     saveFileDialog1.RestoreDirectory = true ;
+		 
+		     if(saveFileDialog1.ShowDialog() == DialogResult.OK)
+		     {
+		         if((myStream = saveFileDialog1.OpenFile()) != null)
+		         {
+		             // Code to write the stream goes here.
+		             for (int i = 0; i < 180; i++)
+		             {
+		             	string string_data;
+					 	serialPort.Write("righ");
+					 	System.Threading.Thread.Sleep(1000);
+					 	serialPort.Write("meas");
+					 	System.Threading.Thread.Sleep(1000);
+		             	string_data = serialPort.ReadExisting() +'\n';
+		             	byte[] bytes = Encoding.ASCII.GetBytes(string_data);
+					 	logger.Log(string_data); 
+					 	myStream.Write(bytes, 0, bytes.Length);
+		             }
+		             myStream.Close();
+		         }
+		     }
 		}
 	}
 }

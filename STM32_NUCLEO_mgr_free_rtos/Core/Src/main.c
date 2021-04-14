@@ -23,6 +23,7 @@
 #include "task.h"
 #include "ring_buffer.h"
 #include "string.h"
+#include "stdio.h"
 
 
 /* Private includes ----------------------------------------------------------*/
@@ -52,6 +53,7 @@ UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
 
 static char RingBufferData_Rx[1024];
+static char RingBufferData_Tx[1024];
 /* Definitions for USART_Task */
 osThreadId_t USART_TaskHandle;
 const osThreadAttr_t USART_Task_attributes = {
@@ -403,7 +405,10 @@ static void USART_Process_Data(const char *data)
   }
   if(strncmp(data, "meas", 4) == 0)
   {
-         HAL_UART_Transmit(&huart1, (uint8_t *) "current: x, voltage: y", 22, 1000);
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
+    sprintf(RingBufferData_Tx, "Measure: %lx\r\n", HAL_ADC_GetValue(&hadc1));
+    HAL_UART_Transmit(&huart1, (uint8_t *) RingBufferData_Tx, 22, HAL_MAX_DELAY);
   }
   if(strncmp(data, "te_1", 4) == 0)
   {
