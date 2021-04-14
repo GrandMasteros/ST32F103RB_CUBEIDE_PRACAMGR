@@ -49,19 +49,16 @@ namespace UX_mPMA_ParamGen
 		void LeftButtonClick(object sender, EventArgs e)
 		{
 			serialPort.Write("left");
-			logger.Log(serialPort.ReadExisting());
 		}
 		
 		void RightButtonClick(object sender, EventArgs e)
 		{
 			serialPort.Write("righ");
-			logger.Log(serialPort.ReadExisting());
 		}
 		
 		void MeasButtonClick(object sender, EventArgs e)
 		{
 			serialPort.Write("meas");
-			logger.Log(serialPort.ReadExisting());
 		}
 		
 		void TestButtonClick(object sender, EventArgs e)
@@ -85,9 +82,10 @@ namespace UX_mPMA_ParamGen
 					 	System.Threading.Thread.Sleep(1000);
 					 	serialPort.Write("meas");
 					 	System.Threading.Thread.Sleep(1000);
-		             	string_data = serialPort.ReadExisting() +'\n';
-		             	byte[] bytes = Encoding.ASCII.GetBytes(string_data);
-					 	logger.Log(string_data); 
+		             	string_data = serialPort.ReadExisting();
+		             	logger.Log(string_data);
+		             	string_data = string_data + '\n';
+		             	byte[] bytes = Encoding.ASCII.GetBytes(string_data); 
 					 	myStream.Write(bytes, 0, bytes.Length);
 		             }
 		             myStream.Close();

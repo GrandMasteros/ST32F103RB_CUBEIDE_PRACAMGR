@@ -407,7 +407,7 @@ static void USART_Process_Data(const char *data)
   {
     HAL_ADC_Start(&hadc1);
     HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
-    sprintf(RingBufferData_Tx, "Measure: %lx\r\n", HAL_ADC_GetValue(&hadc1));
+    sprintf(RingBufferData_Tx, "Measure: %lx", HAL_ADC_GetValue(&hadc1));
     HAL_UART_Transmit(&huart1, (uint8_t *) RingBufferData_Tx, 22, HAL_MAX_DELAY);
   }
   if(strncmp(data, "te_1", 4) == 0)

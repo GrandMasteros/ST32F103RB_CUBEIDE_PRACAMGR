@@ -728,7 +728,7 @@ static void USART_Process_Data(const char *data)
  80004be:	f04f 31ff 	mov.w	r1, #4294967295
  80004c2:	4826      	ldr	r0, [pc, #152]	; (800055c <USART_Process_Data+0x124>)
  80004c4:	f000 fcd0 	bl	8000e68 <HAL_ADC_PollForConversion>
-    sprintf(RingBufferData_Tx, "Measure: %lx\r\n", HAL_ADC_GetValue(&hadc1));
+    sprintf(RingBufferData_Tx, "Measure: %lx", HAL_ADC_GetValue(&hadc1));
  80004c8:	4824      	ldr	r0, [pc, #144]	; (800055c <USART_Process_Data+0x124>)
  80004ca:	f000 fdc7 	bl	800105c <HAL_ADC_GetValue>
  80004ce:	4603      	mov	r3, r0
